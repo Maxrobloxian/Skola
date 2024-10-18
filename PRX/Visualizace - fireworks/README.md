@@ -1,1 +1,1 @@
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/oBe0VJIx91k)
+[![IMAGE ALT TEXT HERE](https://youtu.be/oBe0VJIx91k)](https://youtu.be/oBe0VJIx91k)
