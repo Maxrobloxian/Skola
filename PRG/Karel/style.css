@@ -11,6 +11,18 @@ body {
     align-items: center;
 }
 
+.help {
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 1.5em;
+    z-index: -1;
+    margin: 1%;
+}
+.help p {
+    padding-bottom: 4px;
+}
+
 .commands {
     height: 75vh;
     width: 25vw;
@@ -22,6 +34,7 @@ body {
     box-sizing: border-box;
     background-color: #252525;
 }
+
 .commands form {
     height: 100%;
     display: grid;
@@ -35,6 +48,7 @@ body {
     color: #999;
     border: none;
     outline: none;
+    resize: none;
 }
 
 .commands form button {
@@ -42,7 +56,6 @@ body {
     height: 100%;
     background-color: transparent;
     color: #999;
-    border: none;
     outline: none;
 }
 
@@ -62,12 +75,26 @@ body {
 
 .field table td {
     border: 1px solid #7778;
+    width: 10%;
+    height: 10%;
 }
 
 .field table td p {
     color: white;
     text-align: center;
     font-size: 4.5vh;
+}
+
+.underScene {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1%;
+    background-color: #111;
+    border-radius: 8px;
+    color: #999;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
 .playerUp{

@@ -37,10 +37,12 @@ include_once 'logic.php';
             <textarea name="text" placeholder="Write code :D"></textarea>
             <button type="submit" name="submit">Run</button>
         </form>
-        <!-- <form action="test.php" method="POST" class="test">
-            <textarea name="text" placeholder="Write code :D"></textarea>
-            <button type="submit" name="submit">Run</button>
-        </form> -->
+        <?php if (isset($_GET["tests"])) echo "
+        <form action='test.php?x=0&y=0' method='POST' class='test'>
+            <textarea name='text' placeholder='Test code'></textarea>
+            <button type='submit' name='submit'>Run</button>
+        </form>";
+        ?>
     </div>
     <div class="field">
         <?php
@@ -48,6 +50,7 @@ include_once 'logic.php';
         MakeGrid();
         ?>
     </div>
+    <a href="index.php?tests=true" class="underScene"> Under the scene</a>
 </body>
 
 </html>

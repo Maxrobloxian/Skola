@@ -13,5 +13,9 @@ body {
 }
 
 div {
-    background-color: red;
+    background-color: #500;
+}
+
+.box {
+    background-color: #474;
 }
