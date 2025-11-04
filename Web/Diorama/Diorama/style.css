@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(rgb(118, 183, 212), rgb(61, 122, 182)) fixed;
+}
+
+#cnvs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -2;
+    zoom: 1;
+}
+
+#apple, #downArrow, #rightArrow, #upArrow, #satellite {
+    display: none;
+}

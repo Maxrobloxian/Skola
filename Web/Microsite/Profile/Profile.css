@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.inviz-head {
+    position: fixed;
+    top: 0;
+    background: transparent;
+    height: 50px;
+    width: 100%;
+}
+.inviz-top {
+    margin-top: -51px;
+    background: black;
+    height: 50px;
+    transition: .15s;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40% 20% 40%;
+    animation: inviz-top 3.15s linear;
+    visibility: hidden;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+}
+.left-head {
+    justify-self: left;
+}
+.right-head {
+    justify-self: right;
+}
+
+.inviz-top a {
+    margin: 0 20px 0 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.inviz-top > a {
+    margin: 0;
+}
+
+.inviz-head:hover > .inviz-top{
+    margin: 0;
+    visibility: visible;
+}
+
+
+body {
+    background-size: 100%;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.allAboutMe > div {
+    border-top: 2px solid rgb(255, 255, 255, .5);
+    padding: 60px;
+}
+.aboutMe, .hobbies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hobbies {
+    flex-direction: row-reverse;
+}
+.text-box {
+    flex: 60% 0;
+    margin: 0 128px 0 0;
+}
+#left-text-box {
+    margin: 0 0 0 128px;
+}
+.img-box {
+    display: flex;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 141px;
+    border: 3px solid rgb(255, 255, 255, .5);
+    border-radius: 35px;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 1;
+    background-color: black;
+}
+#right-img {
+    margin: 0 0 0 -100px;
+}
+#left-img {
+    margin: 0 -100px 0 0;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+h2 {
+    font-weight: normal;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.5);
+    margin: -36px 0 12px 0;
+}
+p, h2, th, td {
+    color: white;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+td {
+    padding: 1px 10px;
+    font-size: 22px;
+    text-align: left;
+    border-radius: 0;
+    border-top: 2px solid rgb(255, 255, 255, .5);
+    border-bottom: 2px solid rgb(255, 255, 255, .5);
+}
+td:first-child {
+    border-radius: 10px 0 0 10px;
+    border-left: 2px solid rgb(255, 255, 255, .5);
+}
+td:last-child {
+    border-radius: 0 10px 10px 0;
+    border-right: 2px solid rgb(255, 255, 255, .5);
+}
+
+table {
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255, .5);
+    padding: 5px;
+}
+tr:not(:first-child):hover {
+    background-color: rgba(134, 134, 134, 0.2);
+}
+.languages > h2 {
+    margin-bottom: 30px;
+}
+
+
+img {
+    z-index: 0;
+}
+
+.img:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 150px 0 0px;
+    z-index: 2;
+    scale: 2;
+}
+.img:hover > img {
+    z-index: 2;
+    flex-basis: 0;
+    scale: .08;
+}
+.hobbies > .img-box > .img:hover > img {
+    scale: .19;
+}
+.hobbies > .img-box > .img:nth-child(2):hover > img {
+    scale: .14;
+}
+.hobbies > .img-box > .img:nth-child(3):hover > img {
+    scale: .11;
+}
+#right-img:hover {
+    margin: 0 150px 0 0;
+}
+#left-img:hover {
+    margin: 0 0 0 150px;
+}
+
+
+@keyframes inviz-top {
+    0% {margin-top: 0; visibility: visible;}
+    95% {margin-top: 0; visibility: visible;}
+    100% {margin-top: -51px;}
+}
+
+@media only screen and (max-width:1199px) {
+
+    header {
+        display: none;
+    }
+
+    .aboutMe, .hobbies {
+        display: grid;
+    }
+
+    .img-box {
+        display: grid;
+        justify-content: center;
+        margin: 12px 0 0 0;
+    }
+    #right-img, #left-img {
+        margin: 0;
+    }
+
+    .text-box {
+        margin: 0 0;
+    }
+    #left-text-box {
+        margin: 0 0;
+    }
+
+    .allAboutMe > div:nth-child(3) {
+        padding: 60px 15px;
+    }
+    th {
+        font-size: 22px;
+    }
+    td {
+        font-size: 15px;
+    }
+    
+}

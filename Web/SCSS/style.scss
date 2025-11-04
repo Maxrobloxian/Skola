@@ -1,0 +1,38 @@
+@mixin glow($color: rgb(100, 255, 255)) {
+    text-shadow: 0 0 10px $color, 0 0 20px $color, 0 0 30px $color, 0 0 40px $color, 0 0 50px $color, 0 0 60px $color, 0 0 70px $color;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(rgb(118, 183, 212), rgb(61, 122, 182)) fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: (0);
+    animation: pageLoad .3s ease forwards;
+    p {
+        @include glow();
+        font-size: 5em;
+        color: white;
+        margin: 10px;
+        transition: .15s;
+    }
+    p:nth-child(2), p:nth-child(4) {
+        @include glow(rgb(255, 255, 255, .5));
+    }
+    p:nth-child(3) {
+        @include glow(yellow);
+    }
+    p:hover {
+        @include glow(red);
+        font-size: 6em;
+    }
+    scale: (1);
+}
+
+@keyframes pageLoad {
+    from {scale: (0);}
+    to {scale: (1);}
+}
