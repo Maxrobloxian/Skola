@@ -20,7 +20,6 @@ Je to jednoducha kopie minecraftu
 ### Vlastnosti
 - Clovek => bude mit HP, Inventar
 - Itemi => treba block nebude mit nic (z pohledu playera), tooly budou mit Durabilitu, Rychlost, Attack, a jine
-- teoreticky bych tu toho mel napsat vic ale uz mam 1000+ radku kodu a napsat tu vsehno by moc neslo
   #### Ze strany developeru
   ![alt text](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft.drawio.png)
 ### Prostredi
