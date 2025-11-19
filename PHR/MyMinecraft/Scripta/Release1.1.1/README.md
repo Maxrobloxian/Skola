@@ -4,5 +4,5 @@
 ## Kinda full log:
 Pridal jsem 2 skripty.\
 Jeden jen pro mimo debug mode optimizace\
-Druhy pro pocita dobu kreaci terenu\
+Druhy pro pocitani dobu kreaci terenu\
 Jeste jsem trochu upravil WorldGen aby logoval data
