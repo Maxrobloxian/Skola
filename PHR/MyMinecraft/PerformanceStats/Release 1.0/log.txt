@@ -1,0 +1,11 @@
+Release1.1
+World size: 15x15
+Chunks: 225
+
+World Load Time: 5.951s
+
+Chunk Load Time
+First: 3.47ms   Average: 0.43ms
+
+Chunk Render Time
+First: 915.28ms   Average: 3070.29ms
