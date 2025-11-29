@@ -1,4 +1,4 @@
-Release1.1
+Release1.0
 World size: 15x15
 Chunks: 225
 
