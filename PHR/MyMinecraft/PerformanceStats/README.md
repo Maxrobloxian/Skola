@@ -9,7 +9,7 @@
 
 > [!NOTE]
 > - Procenta jsou relativni k predhozi verzi
-> - Cim mensi tim lepsi
+> - Cim mensi cas tim lepsi
 
 ## World Render
 | Version | Chunk (first) | %      | Chunk (avg) | %      | World (15x15) | %      |
@@ -19,7 +19,7 @@
 
 > [!NOTE]
 > - Procenta jsou relativni k predhozi verzi
-> - Cim mensi tim lepsi
+> - Cim mensi cas tim lepsi
 
 ## Misc
 Vertices:
