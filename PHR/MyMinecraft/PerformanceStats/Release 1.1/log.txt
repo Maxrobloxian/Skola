@@ -2,10 +2,12 @@ Release1.1
 World size: 15x15
 Chunks: 225
 
-World Load Time: 1.819s
+World Load Time: 1.877s
+World Gen Time: 0.620s
+World Render Time: 1.257s
 
 Chunk Load Time
-First: 1.88ms   Average: 0.39ms
+First: 1.84ms   Average: 0.43ms
 
 Chunk Render Time
-First: 16.25ms   Average: 5.33ms
+First: 27.33ms   Average: 5.46ms
