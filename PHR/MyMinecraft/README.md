@@ -24,3 +24,12 @@ Je to jednoducha kopie minecraftu
   ![alt text](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft.drawio.png)
 ### Prostredi
 - Lore => neni, je to free for all svet, player si vitvari vlastni pribeh
+
+## Copyright
+Velka cast codu byla inspirovana tutorialy\
+Nektere jsou licensovany takze jsem pridal file "[LICENSE](../LICENSE)".
+- b3agz
+  - [YouTube](https://youtube.com/playlist?list=PLVsTSlfj0qsWEJ-5eMtXsYp03Y9yF1dEn&si=c-0O9jWWQPuurHT2)
+- Sunny Valley Studio
+  - [YouTube](https://www.youtube.com/playlist?list=PLcRSafycjWFdYej0h_9sMD6rEUCpa7hDH)
+  - [GitHub](https://github.com/SunnyValleyStudio/Unity-2020-Voxel-World-Tutorial-Voxel-Engine-members/tree/main)
