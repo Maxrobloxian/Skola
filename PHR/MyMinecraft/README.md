@@ -27,7 +27,7 @@ Je to jednoducha kopie minecraftu
 
 ## Copyright
 Velka cast codu byla inspirovana tutorialy\
-Nektere jsou licensovany takze jsem pridal file "[LICENSE](../LICENSE)".
+Nektere jsou licensovany takze jsem pridal file "[LICENSE](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/LICENSE.txt)".
 - b3agz
   - [YouTube](https://youtube.com/playlist?list=PLVsTSlfj0qsWEJ-5eMtXsYp03Y9yF1dEn&si=c-0O9jWWQPuurHT2)
 - Sunny Valley Studio
