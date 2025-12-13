@@ -1,11 +1,8 @@
-# Release 1.1
+# Beta 1.2.0
 ### Quick log:
-- Improved code readability
-- Code optimization
-- Masive chunk gen speed increase
+- Added random seed generator
+- Tweaked the terrain geration values a little
 ## Kinda full log:
-Kompletni redesign codu tak aby byl citelnejsi a daval vetsi smysl\
-Teren se generuje 2x~3x rychleji, diky zmene v casovani/cteni dat
-## Info o navigaci ve scriptech
-- Script **"World"** startuje majoritu codu, sledovanim se dostanete na konec celeho programu 1.1
-- Par scriptu funguje jen jako dictionary nebo smerovani
+Pokazdy co se teren generuje tak bude vypadat jinak.\
+Woda se ted generuje az na vysku Y-38, vlneni terenu z 0.03 na 0.01.\
+Teren by mel byt mel jednodusi pro chozeni (Meně hor a vody)
