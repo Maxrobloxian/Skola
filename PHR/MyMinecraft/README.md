@@ -3,7 +3,7 @@ Je to jednoducha kopie minecraftu
 ## 1. Zakladni koncepce
 ### Hratelnost
 - Generovani terenu, biomu a mozna i dimenzii
-- Hozeni, niceni, konstrukce, interactivita se svetem
+- Chozeni, niceni, konstrukce, interactivita se svetem
 - Zabava em... minecraft :D
 ### Engine
 - Unity
