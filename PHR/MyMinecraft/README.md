@@ -1,5 +1,6 @@
 # MyMinecraft
-Je to jednoducha kopie minecraftu
+Je to jednoducha kopie minecraftu\
+Pro ukazky "[Fotky terenu.md](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/Fotky%20terenu.md)"
 ## 1. Zakladni koncepce
 ### Hratelnost
 - Generovani terenu, biomu a mozna i dimenzii
