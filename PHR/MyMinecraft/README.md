@@ -22,7 +22,7 @@ Pro ukazky "[Fotky terenu.md](https://github.com/Maxrobloxian/Skola/blob/main/PH
 - Clovek => bude mit HP, Inventar
 - Itemi => treba block nebude mit nic (z pohledu playera), tooly budou mit Durabilitu, Rychlost, Attack, a jine
   #### Ze strany developeru
-  ![alt text](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft.drawio.png)
+  ![Tabulka](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/MyMinecraft.drawio.png)
 ### Prostredi
 - Lore => neni, je to free for all svet, player si vitvari vlastni pribeh
 
