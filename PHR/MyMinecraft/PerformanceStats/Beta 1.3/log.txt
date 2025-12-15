@@ -1,0 +1,13 @@
+Beta 1.3.0
+World size: 15x15
+Chunks: 225
+
+World Load Time: 1.131s
+World Gen Time: 0.621s
+World Render Time: 0.509s
+
+Chunk Load Time
+First: 1.93ms   Average: 0.48ms
+
+Chunk Render Time
+First: 13.33ms   Average: 2.20ms
