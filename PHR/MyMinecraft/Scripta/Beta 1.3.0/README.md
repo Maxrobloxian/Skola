@@ -1,12 +1,13 @@
-# Beta 1.2.0
+# Beta 1.3.0
 ### Quick log:
-- Added random seed generator
-- Tweaked the terrain geration values a little
+- Full terrain overhaul
+- Changed the place for some variables
 ## Kinda full log:
-Pokazdy co se teren generuje tak bude vypadat jinak.\
-Woda se ted generuje az na vysku Y-38, vlneni terenu z 0.03 na 0.01.\
-Teren by mel byt mel jednodusi pro chozeni (Meně hor a vody)
+Udelal jsem novy algoritm pro generovani terenu.\
+Novy custom noise generator.\
+Nova scripta: Noise, NoiseSettings (od tedka Stats -> Settings, pristi update to udelam i u ostatnich scriptu)
+Modifikace scriptu: ChunkGenerator, ChunkStats
 ## Photo
-Release 1.0.0 - 1.1.2                                                       |  Beta 1.2.0
-:--------------------------------------------------------------------------:|:-------------------------------------------------------------------:
-![](https://github.com/Maxrobloxian/GitImages/blob/main/Release1.0-1.1.png) | ![](https://github.com/Maxrobloxian/GitImages/blob/main/Beta1.2.png)
+Release 1.2.0 | Beta 1.3.0
+:---:|:---:
+![](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Beta1.2.png) | ![](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Beta1.3.png)
