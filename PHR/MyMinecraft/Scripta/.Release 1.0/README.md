@@ -10,3 +10,4 @@ Pocitam s tim ze do releasu 2.0 prenastavim 80% projectu (scripta) protoze jsem 
 ## Info o navigaci ve scriptech
 - Script **"World"** startuje majoritu codu, sledovanim se dostanete na konec celeho programu 1.0
 - Par scriptu funguje jen jako dictionary nebo smerovani
+### ![](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Release1.0.png)
