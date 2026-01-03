@@ -1,0 +1,14 @@
+Release2.0
+World size: 15x15
+Data Chunks: 289
+Render Chunks: 225
+
+World Data Time: 1.519s
+World Gen Time: 0.868s
+World Render Time: 0.651s
+
+Chunk Data Time
+First: 4.80ms   Average: 1.19ms
+
+Chunk Render Time
+First: 17.95ms   Average: 2.80ms
