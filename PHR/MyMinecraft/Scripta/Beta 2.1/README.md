@@ -1,4 +1,4 @@
-# Release 2.0
+# Release 2.1
 ### Quick log:
 - Added player movement (walk, sprint, crouch, crawl, jump)
 - Added player camera movement
