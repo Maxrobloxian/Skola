@@ -15,3 +15,8 @@ Release 1.0 | Beta 2.2
 Release 1.0 | Beta 2.2
 ----- | -----
 ![Release 1.0](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/world%20move%20load.gif) | ![Beta 2.2](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/world%20move%20load%202.gif)
+
+# Debug
+Chunk Borders | Chunk Borders
+----- | -----
+![Release 1.0](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/chunk%20borders.png) | ![Beta 2.2](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/chunk%20borders%20scene.png)
