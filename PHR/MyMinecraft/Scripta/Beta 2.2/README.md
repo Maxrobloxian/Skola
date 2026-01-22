@@ -14,4 +14,5 @@
 - alfa faze plasovani blocku, zatim funguje sejne jako niceni ale misto niceni premeni block na block co je v inventari (duvod proc totak je, je jsem to udelal zatim jen pro testovani inventory systemu)
 - niceni bloky se skladaji do inventory
 - pri stisknuti "f3 + b" se objeby chunk bordery pro pripad ze nekdo hce videt konec/zacatek chunku
-- predtim stary chunky byly zniceni a pak se pridaly novy (kdy se player pohybuje mezi chunky) coz je hodne CPU narozni, takze ted se pridaj jen na zacatek (dokud se dosahne cilene viditelnosti) .........
+- predtim stary chunky byly zniceni a pak se pridaly novy (kdy se player pohybuje mezi chunky) coz je hodne CPU narocni, takze ted se pridaj jen na zacatek (dokud se dosahne cilene viditelnosti) potom se chunkum proste prepisou novy data a zmeni pozice
+- a mozna jeste neco ale zapomnel jsem co
