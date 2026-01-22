@@ -1,10 +1,11 @@
-# Release 2.1
+# Release 2.2
 ### Quick log:
-- Added player movement (walk, sprint, crouch, crawl, jump)
-- Added player camera movement
-- Added player block breaking
+- Added multithreading
+- Player inventory
+  - partial UI (hotbar only)
+- Added block placement (alpha phase)
+- Breaked/placed blocks are stored/removed in the inventory
+- Added chunk border debug (for players as well)
+-  ddd
 ## Kinda full log:
-- jsem udelal playera actualne muze hodit, skakat + crouch, crawl
-- player muze nicit bloky (i na kraji chunku), pokud je block na kraji chunku tak to updatne  i ty chunky ze strany blocku
-- plus nejake bug fixi (performance stats)
-- pak jsem hazel nove potrebne funkce do potrebnych scriptu
+- dddd
