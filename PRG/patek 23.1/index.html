@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Error</title>
+    <style>
+        :root {
+            --bg-color: #050505;
+            --text-primary: #e0e0e0;
+            --accent-404: #00f3ff; /* Neon Cyan */
+            --accent-403: #ff0055; /* Neon Red */
+            --accent-401: #ffe600; /* Neon Yellow */
+            --font-mono: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Scanlines Effect */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .container {
+            text-align: center;
+            z-index: 20;
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 3rem;
+            background: rgba(255,255,255,0.02);
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 6rem;
+            margin: 0;
+            letter-spacing: -5px;
+            position: relative;
+            display: inline-block;
+        }
+
+        h1::after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -1px 0 red;
+            top: 0;
+            color: white;
+            background: var(--bg-color);
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: glitch 2s infinite linear alternate-reverse;
+        }
+
+        p.message {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p.sub-message {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 30px;
+            border: 1px solid var(--text-primary);
+            color: var(--text-primary);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 0.3s;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: var(--text-primary);
+            color: var(--bg-color);
+        }
+
+        /* --- Varianty pro jednotlivé chyby --- */
+        
+        /* 404 - Not Found (Cyan) */
+        .type-404 h1 { color: var(--accent-404); text-shadow: 2px 2px 0px rgba(0,243,255,0.3); }
+        .type-404 .btn:hover { box-shadow: 0 0 15px var(--accent-404); border-color: var(--accent-404); background: var(--accent-404); }
+
+        /* 403 - Forbidden (Red) */
+        .type-403 h1 { color: var(--accent-403); text-shadow: 2px 2px 0px rgba(255,0,85,0.3); }
+        .type-403 .btn:hover { box-shadow: 0 0 15px var(--accent-403); border-color: var(--accent-403); background: var(--accent-403); }
+
+        /* 401 - Unauthorized (Yellow) */
+        .type-401 h1 { color: var(--accent-401); text-shadow: 2px 2px 0px rgba(255,230,0,0.3); }
+        .type-401 .btn:hover { box-shadow: 0 0 15px var(--accent-401); border-color: var(--accent-401); background: var(--accent-401); }
+
+        @keyframes glitch {
+            0% { clip: rect(20px, 9999px, 15px, 0); }
+            20% { clip: rect(50px, 9999px, 60px, 0); }
+            40% { clip: rect(10px, 9999px, 80px, 0); }
+            60% { clip: rect(30px, 9999px, 10px, 0); }
+            80% { clip: rect(70px, 9999px, 40px, 0); }
+            100% { clip: rect(90px, 9999px, 20px, 0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container type-404">
+        
+        <h1 data-text="404">404</h1>
+        
+        <div id="content-404">
+            <p class="message">Signal Lost</p>
+            <p class="sub-message">Objekt, který hledáte, zmizel v digitální prázdnotě.</p>
+        </div>
+
+        <a href="/" class="btn">Návrat do bezpečí</a>
+    </div>
+
+</body>
+</html>
