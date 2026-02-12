@@ -20,3 +20,11 @@ Release 1.0 | Beta 2.2
 Chunk Borders | Chunk Borders
 ----- | -----
 ![Release 1.0](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/chunk%20borders.png) | ![Beta 2.2](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/chunk%20borders%20scene.png)
+
+### Debug Screen
+![Debug Screen](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/debug%20screen.png)
+
+# Player Inventory
+Verse | Photo
+----- | -----
+1.0 | ![Player Inventory](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/player%20inventory.png)
