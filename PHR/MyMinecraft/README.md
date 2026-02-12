@@ -1,6 +1,8 @@
 # MyMinecraft
 Je to jednoducha kopie minecraftu\
-Pro ukazky "[Fotky terenu.md](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/Fotky%20terenu.md)"
+Pro ukazky "[Fotky terenu.md](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/Fotky.md)"
+
+## Kapitoly
 Cast | Info | Link
 :---:| :---:|:---:
 1 | Zakladni koncepce | [Click me](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/README/1.%20Zakladni%20koncepce.md)
