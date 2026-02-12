@@ -1,30 +1,11 @@
 # MyMinecraft
 Je to jednoducha kopie minecraftu\
 Pro ukazky "[Fotky terenu.md](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/Fotky%20terenu.md)"
-## 1. Zakladni koncepce
-### Hratelnost
-- Generovani terenu, biomu a mozna i dimenzii
-- Chozeni, niceni, konstrukce, interactivita se svetem
-- Zabava em... minecraft :D
-### Engine
-- Unity
-- 3D
-### Technologie
-- Unity
-- C#
-- pixilart.com
-- jine
-### Hlavni zamer (vyvoje)
-- Na zacatku optimizace (hra ma stovky tisic voxelu(bloku) ktery tvori teren, 99% z toho neni videt)
-- Pak hratelnost (pocitam s tim ze budu umirat u inventare)
-## 2. Game Design
-### Vlastnosti
-- Clovek => bude mit HP, Inventar
-- Itemi => treba block nebude mit nic (z pohledu playera), tooly budou mit Durabilitu, Rychlost, Attack, a jine
-  #### Ze strany developeru
-  ![Tabulka](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/MyMinecraft.drawio.png)
-### Prostredi
-- Lore => neni, je to free for all svet, player si vitvari vlastni pribeh
+Cast | Info | Link
+:---:| :---:|:---:
+1 | Zakladni koncepce | [Click me](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/README/1.%20Zakladni%20koncepce.md)
+2 | Game Design | [Click me](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/README/2.%20Game%20Design.md)
+3 | Grafika | [Click me](https://github.com/Maxrobloxian/Skola/blob/main/PHR/MyMinecraft/README/3.%20Grafika.md)
 
 ## Copyright
 Velka cast codu/textur byla inspirovana tutorialy\
