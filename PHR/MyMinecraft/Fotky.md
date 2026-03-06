@@ -28,3 +28,9 @@ Chunk Borders | Chunk Borders
 Verse | Photo
 ----- | -----
 1.0 | ![Player Inventory](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/player%20inventory.png)
+2.0 | ![Player Inventory](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/player%20inventory%202.4.png)
+
+# Pause Menu
+Verse | Photo
+----- | -----
+0.1 | ![Pause Menu](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/pause%20menu.png)
