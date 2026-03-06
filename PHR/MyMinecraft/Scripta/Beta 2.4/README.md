@@ -19,3 +19,7 @@
 Player Inventory | Pause Menu
 ----- | -----
 ![Player Inventory](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/player%20inventory%202.4.png) | ![Pause Menu](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/pause%20menu.png)
+
+New terrain with trees
+| --- |
+![New terrain with trees](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Beta2.4.png)
