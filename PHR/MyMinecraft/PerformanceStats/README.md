@@ -1,5 +1,8 @@
 # Statistica ruznych casti hry
-## Fps
+
+> [!CAUTION]
+> Po verzi **Release 2.0** je generovani dynamicky takze nema cenu logovat cas.\
+> Performance logging je <ins>**zruseny**</ins>.
 
 ## Worl Load
 | Version | World (15x15) | %      |
