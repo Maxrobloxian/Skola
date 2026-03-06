@@ -1,4 +1,4 @@
-# Beta 2.3
+# Beta 2.4
 ### Quick log:
 - added trees
 - some changes to world gen
