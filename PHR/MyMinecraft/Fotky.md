@@ -5,6 +5,7 @@ Release 1.0 | ![Release 1.0](https://github.com/Maxrobloxian/GitImages/blob/main
 Beta 1.2 | ![Beta 1.2](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Beta1.2.png)
 Beta 1.3 | ![Beta 1.3](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Beta1.3.png)
 Release 2.0 | ![Release 2.0](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Release2.0.png)
+Beta 2.4 | ![Beta 2.4](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/Beta2.4.png)
 
 # Načitani světa
 Release 1.0 | Beta 2.2
