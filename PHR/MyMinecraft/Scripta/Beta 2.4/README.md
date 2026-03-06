@@ -15,3 +15,7 @@
 - svet ted generuje stromy
 - v inventari jsou generovany 2.5D ikony bloku (uz to neni text :D)
 - prvni prototypy pause menu (quit game/ back to game)
+
+Player Inventory | Pause Menu
+----- | -----
+![Player Inventory](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/player%20inventory%202.4.png) | ![Pause Menu](https://github.com/Maxrobloxian/GitImages/blob/main/MyMinecraft/pause%20menu.png)
