@@ -14,6 +14,7 @@
 - pridal jsem ruzne save fily (chunky, inventory, player, world, options) jsou psany v binarce pro rychli psani/cteni obsahu (swet musi psat/cist tisice chunku)
 
 ### Download demo: [Release 3.0](https://raw.githubusercontent.com/Maxrobloxian/Skola/refs/heads/main/PHR/MyMinecraft/Download/Release%203.0.zip)
+Stahni -> unzipni -> otevri file **MyMinecraft - Refactored.exe**
 
 ### New stuff photo
 Title Screen | Options Screen
